@@ -29,4 +29,6 @@ public class Message {
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
+    private String status;
+
 }
